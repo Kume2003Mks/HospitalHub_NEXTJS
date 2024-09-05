@@ -7,7 +7,6 @@ const About = () => {
 
   const icon_data: Icon_Props[] = [
     { title: `${t('about')}`, icon: "mdi:about-circle-outline", link: "/about/about-us" },
-    { title: `${t('vision')}`, icon: "material-symbols:other-admission-outline", link: "/about/vision-mission" },
     { title: `${t('history')}`, icon: "mdi:clipboard-text-history-outline", link: "/about/history" },
     { title: `${t('team')}`, icon: "ri:team-fill", link: "/about/medical-team" },
     { title: `${t('awards')}`, icon: "material-symbols:trophy", link: "/about/awards" },

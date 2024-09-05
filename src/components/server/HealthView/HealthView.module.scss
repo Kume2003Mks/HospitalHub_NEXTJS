@@ -1,4 +1,4 @@
-$gradient-text: -webkit-linear-gradient(right, #61b42c, #006738);
+$gradient-text: #030082;
 
 
 .container {
@@ -7,7 +7,7 @@ $gradient-text: -webkit-linear-gradient(right, #61b42c, #006738);
     flex-direction: column;
     gap: 1rem;
     margin: 1rem 0;
-    background-color: white;
+    background-color: transparent;
     padding: 1rem;
     border-radius: 8px;
 }

@@ -36,7 +36,7 @@ const Home = async () => {
     EM: t('icon_btn.EM'),
     PC: t('icon_btn.PC'),
     CC: t('icon_btn.CC'),
-    RECC: t('icon_btn.RECC')
+    RECC: t('icon_btn.DC')
   }
 
   return (

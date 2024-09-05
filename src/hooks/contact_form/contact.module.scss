@@ -1,6 +1,4 @@
-$main-color: #086a38;
-$second-color: #096b5a;
-$third-color: #096b17;
+$main-color: #1c18c6;
 
 .contact-form {
     display: flex;
@@ -107,7 +105,7 @@ $third-color: #096b17;
     button {
         align-self: center;
         width: fit-content;
-        background-color: #086a38;
+        background-color: $main-color;
         font-size: large;
         padding: 0.5rem 1rem 0.5rem 1rem;
         color: white;

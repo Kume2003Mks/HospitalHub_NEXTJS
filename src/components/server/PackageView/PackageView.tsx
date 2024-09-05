@@ -18,10 +18,11 @@ const PackageView = async() => {
         <section className={Styles.container}>
           <div className={Styles.header}>
             <h1>{t('section.promo')}</h1>
+            <Link href='/promotion' className={Styles.more}>{t('more')}<MdArrowForwardIos className={Styles.icon} /></Link>
           </div>
           <div className={Styles.product_grid}>
             <Suspense fallback={<Loading />}>
-              {promotion ? (
+              {promotion && (
                 promotion.map((item: PromotionProps) => (
                   <Promotion_Card
                     key={item.id}
@@ -33,12 +34,9 @@ const PackageView = async() => {
                     price_lang={t('thb')}
                   />
                 ))
-              ) : (
-                <></>
               )}
             </Suspense>
           </div>
-          <Link href='/promotion' className={Styles.more}>{t('more')}<MdArrowForwardIos className={Styles.icon} /></Link>
         </section>
   )
 }

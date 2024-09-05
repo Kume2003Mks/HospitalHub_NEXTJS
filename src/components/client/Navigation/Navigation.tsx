@@ -70,12 +70,12 @@ const Navigation = ({ nav, localActive, about_nav, product_nav, service_nav }: n
             <ul className={Styles['left-menu-container']}>
                 <li>
                     <Link href="/">
-                        <Image src={isMobile ? '/minilogo.png' : '/logo.jpg'} alt="logo" className={Styles.logo} height={100} width={300} />
+                        <Image src={isMobile ? '/minilogo.png' : '/logo.png'} alt="logo" className={Styles.logo} height={100} width={300} />
                     </Link>
                 </li>
                 <li>
                     <Icon icon="ph:phone-fill" className={Styles['phone-icon']} />
-                    <p>02-9756-700</p>
+                    <p>000-0000-000</p>
                 </li>
             </ul>
 
@@ -133,13 +133,6 @@ const Navigation = ({ nav, localActive, about_nav, product_nav, service_nav }: n
                         <Icon icon="eva:arrow-down-fill" className={Styles['dropdown-icon']} />
                     </div>
                     {showProductMenu && <Product_Modal {...product_nav} />}
-                </li>
-                <li>
-                    <div className={Styles.inline}>
-                        <Link className={pathname === `/${localActive}/appointment` ? Styles.active : ""} href="/appointment">
-                            {nav.appoint}
-                        </Link>
-                    </div>
                 </li>
                 <li>
                     <div className={Styles.inline}>

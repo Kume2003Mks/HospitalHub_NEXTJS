@@ -5,11 +5,9 @@ import Styles from './Promotion.module.scss'
 const Promotion_Card = lazy(() => import('@/components/client/Promotion_Card/Promotion_Card'));
 // import Filter from '../../components/Search/Filter';
 
-import Banner from '@/components/client/Banner/Banner';
 import { getTranslations } from 'next-intl/server';
 import Loading from '@/components/server/loader/Loading';
 import getPromotion from '@/declare/function/getPromotion';
-import getBanner from '@/declare/function/getBanner';
 import LayoutGrid from '@/layouts/gridlayout/LayoutGrid';
 import { PromotionProps } from '@/declare/type/PromotionProps';
 
@@ -25,7 +23,6 @@ const Promotion = async (
 
 
   const promotion = await new getPromotion().getAll(searchParams.search)
-  const banner = await new getBanner().getBannerPromotion();
 
   const t = await getTranslations();
 
@@ -33,16 +30,6 @@ const Promotion = async (
 
   return (
     <main>
-      <section className={Styles.slide_container}>
-        <h1 className={Styles["head"]}>{t('package.rec')}</h1>
-        <Suspense fallback={<Loading />}>
-          {banner ? (
-            <Banner banner={banner} />
-          ) : (
-            <></>
-          )}
-        </Suspense>
-      </section>
       <div className={Styles.title_layout}>
         <h3>{t('navigation.promotion')}</h3>
         <div>

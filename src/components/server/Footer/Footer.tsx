@@ -19,11 +19,6 @@ const Footer = () => {
                     <h2 style={{ marginBottom: 12 }}>{t('service')}</h2>
                     <ul>
                         <li>
-                            <Link href="#">
-                                <p> {t('appointment')}</p>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href="/service#clinic">
                                 <p>{t('clinic')}</p>
                             </Link>
@@ -107,47 +102,41 @@ const Footer = () => {
                         <li>
                             <Link href="#">
                                 <PiPhoneFill className={Styles.icon} />
-                                <p>02-9756-700</p>
+                                <p>000-0000-000</p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <MdOutlineMail className={Styles.icon} />
-                                <p>stcarlos@stcarlos.com</p>
+                                <p>nova@example.com</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.facebook.com/stcarlosth/" target="_blank">
+                            <Link href="https://www.facebook.com/" target="_blank">
                                 <FaFacebookSquare className={Styles.icon} />
-                                <p>@stcarlosth</p>
+                                <p>Facebook</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://page.line.me/ppy8997d?openQrModal=true" target="_blank">
-                                <FaLine className={Styles.icon} />
-                                <p>@stcarlosth</p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="https://twitter.com/stcarlosth" target="_blank">
+                            <Link href="https://twitter.com" target="_blank">
                                 <FaSquareXTwitter className={Styles.icon} />
-                                <p>@stcarlosth</p>
+                                <p>Twitter</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.instagram.com/stcarlosth/" target="_blank">
+                            <Link href="https://www.instagram.com" target="_blank">
                                 <FaSquareInstagram className={Styles.icon} />
-                                <p>stcarlosth</p>
+                                <p>Instagram</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.youtube.com/user/KrungsiamStcarlos" target="_blank">
+                            <Link href="https://www.youtube.com" target="_blank">
                                 <FaYoutubeSquare className={Styles.icon} />
-                                <p>KrungsiamStcarlos</p>
+                                <p>Youtube</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.youtube.com/user/KrungsiamStcarlos" target="_blank">
+                            <Link href="#" target="_blank">
                                 <HiOutlineLocationMarker className={Styles.icon} />
                                 <p>{t('address')}</p>
                             </Link>
@@ -168,7 +157,7 @@ const Footer = () => {
                     {t('cookie_policy')}
                 </p>
                 <p>
-                    Copyright &copy; 2024 Krung Siam St. Carlos Medical Centre All right reserved
+                    Copyright &copy; 2024 Nova Health Innovation Hospital. All rights reserved.
                 </p>
             </div>
         </footer>

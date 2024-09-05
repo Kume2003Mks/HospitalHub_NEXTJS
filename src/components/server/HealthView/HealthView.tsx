@@ -19,6 +19,8 @@ const HealthView = async() => {
     <section className={Styles.container}>
     <div className={Styles.header}>
       <h1>{t('section.info')}</h1>
+      <Link href='/about/health-information' className={Styles.more}>{t('more')}<MdArrowForwardIos className={Styles.icon} /></Link>
+
     </div>
     <div className={Styles.pr_grid}>
       <Suspense fallback={<Loading />}>
@@ -38,7 +40,6 @@ const HealthView = async() => {
         )}
       </Suspense>
     </div>
-    <Link href='/about/health-information' className={Styles.more}>{t('more')}<MdArrowForwardIos className={Styles.icon} /></Link>
   </section>
   )
 }

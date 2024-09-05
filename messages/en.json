@@ -1,6 +1,6 @@
 {
   "lang": "EN",
-  "hospital": "Krung Siam St. Carlos Medical Centre",
+  "hospital": "Nova Health Innovation Hospital",
   "navigation": {
     "home": "Home",
     "promotion": "Package and Promotion",
@@ -18,8 +18,8 @@
     "appointment": "Make an Appointment",
     "clinic": "Medical Center & Clinic",
     "checkup": "Check-Up Center",
-    "spa": "St. Carlos Medical Spa",
-    "rehab": "Rehabilitation and Extended Care Centre",
+    "spa": "Medical Spa",
+    "rehab": "Dental Clinic",
     "patient": "Patient Service",
     "accommodation": "Accommodation",
     "about": "About Us",
@@ -34,8 +34,8 @@
     "cctv_policy": "CCTV and Recording System Policy",
     "cookie_policy": "Cookie Policy",
     "contact": "Contact",
-    "history_desc": "Krung Siam St. Carlos Medical Centre offers a team of reputable doctors, specialists and consultants from the Faculty of Medicine at Thammasat University, as well as several government hospitals.Its experienced medical personnel are always on call 24 hours a day.",
-    "address": "5/84 Moo 2 Tiwanon Road, Banklang, Amphur Muang, Phathumthani 12000"
+    "history_desc": "Nova Health Innovation Hospital Founded in 1995 by a visionary group of medical professionals and business leaders, Nova Health Innovation Hospital was established with the mission to create a cutting-edge medical institution that prioritizes quality patient care. From its inception as a mid-sized hospital, Nova Health Innovation has evolved into one of the most renowned medical centers in the country, known for its advanced technology and compassionate care.",
+    "address": "123 Innovation Avenue Srisuk Subdistrict Sathorn District Bangkok 10120 Thailand"
   },
   "package": {
     "rec": "Recommended package"
@@ -73,10 +73,10 @@
     "ENTC": "ENT Clinic",
     "GC": "Geriatric Clinic",
     "ASC": "Aesthetic Surgery Center",
-    "OJSC": "Orthopedic and Joint Surgery Clinic",
+    "OJSC": "Orthopedic Clinic",
     "PTC": "Physical Therapy Clinic",
     "DC2": "Dermatology Clinic",
-    "SPA": "St. Carlos Medical Spa",
+    "SPA": "Medical Spa",
     "RECC": "St.Carlos RECC"
   },
   "contact": {
@@ -101,31 +101,18 @@
     "query": "Search Package",
     "filter": "Service Center"
   },
-  "vision": {
-    "vision": "Vision",
-    "visiondet": "await",
-    "mission": "Mission",
-    "missiondet": "await",
-    "values": "Values",
-    "value_list": {
-      "customer": "Customer focus",
-      "integrity": "Integrity",
-      "rapid": "Rapid Response",
-      "team": "Team Work",
-      "efficiency": "Efficiency",
-      "continuous": "Continuous Performance Improvement"
-    }
-  },
   "history": {
     "history": "History",
-    "1": "1987 St. Carlos group first began as “Suthipron Clinic” in Bangkok for both inpatient and weight loss patients.",
-    "2": "1988 “Pahdipat Poly Clinic” was established in Bangkok for both inpatient and weight loss consultation.",
-    "3": "1989 “Sutjarit Poly Clinic” was established in Bangkok for both inpatient and weight loss consultation.",
-    "4": "1993 Bangkok Mediclub Center was established in Bangkok.",
-    "5": "1995 Krungsiam Medical Center & Medical Spa were established and located in the suburbs of Bangkok,Phatumtanee.",
-    "6": "1997 St. Carlos Laboratory Co., Ltd was established for science research and production of products for both local and international markets.",
-    "7": "1998 St Carlos Phama International Company was established in Philippines as weight loss production center for distribution worldwide.",
-    "8": ""
+    "1": "Founding: Nova Health Innovation Hospital was established in 1995 by a group of visionary medical professionals and business leaders with a mission to create a cutting-edge hospital focused on quality patient care.",
+    "2": "Core Mission: The hospital aims to provide top-tier medical services using the latest technologies and innovative research to enhance patient treatment.",
+    "3": "Growth and Expansion: Initially a mid-sized hospital, it expanded over the years, increasing its capacity to treat patients and improve services continually.",
+    "4": "Technology Integration: The hospital pioneered the use of advanced technologies in treating various conditions, such as minimally invasive surgery, cardiology, and cancer therapy.",
+    "5": "Research and Development: Continuous investment in research and development has led to the creation of new medical innovations at the hospital.",
+    "6": "Medical Staff Development: Emphasizing the ongoing education and skill development of medical staff, the hospital ensures they are equipped with the latest knowledge and techniques.",
+    "7": "Community Engagement: The hospital fosters strong relationships with the community to build a healthier and more sustainable society.",
+    "8": "Global Network Expansion: Nova Health Innovation Hospital has established partnerships with leading hospitals and medical centers worldwide to exchange knowledge and technologies.",
+    "9": "Comprehensive Services: The hospital offers comprehensive healthcare services, including diagnosis, treatment, and rehabilitation.",
+    "10": "Patient Trust: Known for its high-quality services and compassionate care, Nova Health Innovation Hospital has earned the trust of patients both locally and internationally."
   },
   "popup": {
     "thank": "Thank You!",
@@ -136,28 +123,28 @@
   },
   "AboutUs": {
     "head": "About Us",
-    "text-1": "Built in 1994, the Krung Siam St. Carlos Medical Centre has developed into one of the largest medical centers in Thailand with a fully equipped state-of-the-art medical facilities located in the suburbs of Bangkok. It houses Asia’s first integrated medical spa, health center, and the head office of the St. Carlos Group of Health Services. The Centre is a modern private 10-storey hospital with 100 beds and a convenient car park for up to 200 cars. It is located on 14,000 square meters of land on Tiwanon Road, Banklang, Amper Muang, Pathumthani province just 27 kilometers from Bangkok. There is easy access to the vibrant city center. The new Future Park, the largest shopping centerand entertainment complex in Asia, is seven kilometers away. Nearby are the famous tourist attractions of the Bang Pa-In Summer Palace and the ancient city of Ayutthaya. The hospital provides health services and information to the local communities.",
-    "text-2": "",
-    "text-3": ""
+    "text-1": "Nova Health Innovation Hospital was established in 1995 with the ambition to become the most advanced hospital in the region. Founded by a visionary team of medical professionals and business leaders, our hospital is dedicated to delivering high-quality patient care using the latest technology and innovative practices.",
+    "text-2": "At Nova, we prioritize continuous research and development to create cutting-edge medical innovations that meet the evolving needs of our patients. We have integrated advanced technologies in our treatments, such as minimally invasive surgery, cardiology, and cancer therapy, ensuring our patients receive the safest and most effective care available.",
+    "text-3": "We are committed to building strong relationships with our community and expanding our network with leading hospitals worldwide to exchange knowledge and technology. Nova Health Innovation Hospital has earned the trust of patients both locally and internationally by offering comprehensive services from diagnosis and treatment to rehabilitation, all grounded in excellence and compassionate care."
   },
   "Awards": {
     "head": "Awards Received",
-    "1": "",
-    "2": "",
-    "3": "",
-    "4": "",
-    "5": "",
-    "6": "",
-    "7": "",
-    "8": "",
-    "9": "",
-    "10": "",
-    "11": "",
-    "12": ""
+    "1": "Awards 1",
+    "2": "Awards 2",
+    "3": "Awards 3",
+    "4": "Awards 4",
+    "5": "Awards 5",
+    "6": "Awards 6",
+    "7": "Awards 7",
+    "8": "Awards 8",
+    "9": "Awards 9",
+    "10": "Awards 10",
+    "11": "Awards 11",
+    "12": "Awards 12"
   },
   "Accommodatiom": {
-    "VII": "7th Floor",
-    "IV": "4th Floor",
-    "ACR": "Intensive care unit"
+    "VII": "Premiem Room",
+    "IV": "Single Room",
+    "ACR": "General Room"
   }
 }

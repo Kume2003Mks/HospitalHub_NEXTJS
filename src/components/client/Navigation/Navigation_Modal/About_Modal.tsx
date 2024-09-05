@@ -39,12 +39,6 @@ const About_Modal: React.FC<about_modal> = ({
                         </div>
                         {about}
                     </li>
-                    <li onClick={() => navigate('/about/vision-mission')}>
-                        <div className={Styles.icon_wrap}>
-                            <Icon icon="material-symbols:other-admission-outline" className={Styles.icon} />
-                        </div>
-                        {vision}
-                    </li>
                     <li onClick={() => navigate('/about/history')}>
                         <div className={Styles.icon_wrap}>
                             <Icon icon="mdi:clipboard-text-history-outline" className={Styles.icon} />

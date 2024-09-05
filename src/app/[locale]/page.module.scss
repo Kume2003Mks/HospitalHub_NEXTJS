@@ -1,5 +1,5 @@
 $banner-raitio: 3/1;
-$gradient-text: -webkit-linear-gradient(right, #61b42c, #006738);
+$gradient-text: #030082;
 $primary-textcolor: #004357;
 $background-color: #f2f2f2;
 $hover-color: #096b17;
@@ -8,7 +8,7 @@ $hover-color: #096b17;
     width: 100%;
     height: auto;
     aspect-ratio: $banner-raitio;
-    padding: 4rem 0 1.5rem 0;
+    padding: 1rem 0;
     background-color: $background-color;
 }
 

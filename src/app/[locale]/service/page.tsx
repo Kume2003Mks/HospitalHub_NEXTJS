@@ -19,7 +19,6 @@ const Service = () => {
     { title: `${t('icon_btn.OJSC')}`, icon: "healthicons:joints-outline", link: "/service/orthopedic" },
     { title: `${t('icon_btn.PTC')}`, icon: "medical-icon:i-physical-therapy", link: "/service/therapy" },
     { title: `${t('icon_btn.DC2')}`, icon: "material-symbols:dermatology-outline", link: "/service/dermatology" },
-    { title: `${t('icon_btn.RECC')}`, icon: "carbon:airline-passenger-care", link: "/service/st_carlos_recc" },
     { title: `${t('icon_btn.SPA')}`, icon: "ri:leaf-fill", link: "/service/St_CarlosMedicalSpa" },
   ]
 

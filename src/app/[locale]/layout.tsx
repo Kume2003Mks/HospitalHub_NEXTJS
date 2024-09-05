@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t('hospital'),
     description: t('footer.history_desc'),
-    keywords: ["Krung Siam St. Carlos", "โรงพยาบาลกรุงสยามเซนต์คาร์ลอส", "กรุงสยามเซนต์คาร์ลอส", "St.Carlos"],
+    keywords: ["Nova Health Innovation Hospital", "โรงพยาบาล", "โรงพยาบาลโนวาเฮลธ์อินโนเวชั่น"],
     formatDetection: {
       telephone: false,
     },
@@ -64,7 +64,7 @@ export default function RootLayout({
     clinic: t('footer.clinic'),
     checkup: t('footer.checkup'),
     spa: t('footer.spa'),
-    rehab: t('footer.rehab'),
+    rehab: t('icon_btn.DC'),
     accommodation: t('footer.accommodation'),
   }
   const product_nav = {

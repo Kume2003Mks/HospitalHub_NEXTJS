@@ -9,7 +9,7 @@ import Link from 'next/link';
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import Image from 'next/image'
 // import image
-import QR from '@/assets/image/lineqr.jpg'
+import QR from '@/assets/image/qr.png'
 
 type Errors = {
     name?: string;
@@ -112,44 +112,35 @@ const Contact_form = ({ contact }: Contact) => {
                         </li>
                         <li>
                             <Icon icon="lucide:mail" className={Styles.icon} />
-                            <p>stcarlos@stcarlos.com</p>
+                            <p>nova@example.com</p>
                         </li>
                         <li>
                             <Icon icon="ph:phone-fill" className={Styles.icon} />
-                            <p>02-9756-700 - 05</p>
+                            <p>000-0000-000</p>
                         </li>
                         <li>
-                            <Icon icon="ph:phone-fill" className={Styles.icon} />
-                            <p>063-353-6601 - 05</p>
-                        </li>
-                        <li>
-                            <Link href="https://www.facebook.com/stcarlosth/" target="_blank">
+                            <Link href="https://www.facebook.com" target="_blank">
                                 <FaFacebookSquare className={Styles.icon} />
-                                <p>@stcarlosth</p>
+                                <p>Facebook</p>
                             </Link>
                         </li>
+
                         <li>
-                            <Link href="https://page.line.me/ppy8997d?openQrModal=true" target="_blank">
-                                <FaLine className={Styles.icon} />
-                                <p>@stcarlosth</p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="https://twitter.com/stcarlosth" target="_blank">
+                            <Link href="https://twitter.com" target="_blank">
                                 <FaSquareXTwitter className={Styles.icon} />
-                                <p>@stcarlosth</p>
+                                <p>Twitter</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.instagram.com/stcarlosth/" target="_blank">
+                            <Link href="https://www.instagram.com" target="_blank">
                                 <FaSquareInstagram className={Styles.icon} />
-                                <p>stcarlosth</p>
+                                <p>Instagram</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.youtube.com/user/KrungsiamStcarlos" target="_blank">
+                            <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                                 <FaYoutubeSquare className={Styles.icon} />
-                                <p>KrungsiamStcarlos</p>
+                                <p>Youtube</p>
                             </Link>
                         </li>
                     </ul>

@@ -42,9 +42,9 @@ const Service_Modal: React.FC<service_modal> = ({
                         </div>
                         {spa}
                     </li>
-                    <li onClick={() => navigate('/service/st_carlos_recc')}>
+                    <li onClick={() => navigate('/service/dental')}>
                         <div className={Styles.icon_wrap}>
-                            <Icon icon="carbon:airline-passenger-care" className={Styles.icon} />
+                            <Icon icon="tabler:dental" className={Styles.icon} />
                         </div>
                         {rehab}
                     </li>
