@@ -19,7 +19,7 @@ const Service = () => {
     { title: `${t('icon_btn.OJSC')}`, icon: "healthicons:joints-outline", link: "/service/orthopedic" },
     { title: `${t('icon_btn.PTC')}`, icon: "medical-icon:i-physical-therapy", link: "/service/therapy" },
     { title: `${t('icon_btn.DC2')}`, icon: "material-symbols:dermatology-outline", link: "/service/dermatology" },
-    { title: `${t('icon_btn.SPA')}`, icon: "ri:leaf-fill", link: "/service/St_CarlosMedicalSpa" },
+    { title: `${t('icon_btn.SPA')}`, icon: "ri:leaf-fill", link: "/service/medicalSpa" },
   ]
 
   return (
@@ -29,7 +29,6 @@ const Service = () => {
         <div className={Styles.icon_grid}>
           <Icon_Button link='/service/doctor-appointment' icon='gravity-ui:calendar' title={`${t('icon_btn.MA')}`} />
           <Icon_Button link='/service/check-up' icon='carbon:reminder-medical' title={`${t('icon_btn.CC')}`} />
-          <Icon_Button link='/service/accommodation' icon='tabler:bed-filled' title={`${t('icon_btn.AC')}`} />
         </div>
         <h2 id='clinic'>{t('section.clinic')}</h2>
         <div className={Styles.icon_grid} >

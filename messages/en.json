@@ -64,7 +64,7 @@
     "AC": "Accommodation",
     "EM": "Emergency",
     "AS": "All Services",
-    "PC": "Pediatric 24-Hours",
+    "PC": "Pediatric",
     "WH": "Women's Health Center",
     "GSC": "General Surgery Clinic",
     "KC": "Hemodialysis Center",
@@ -141,10 +141,5 @@
     "10": "Awards 10",
     "11": "Awards 11",
     "12": "Awards 12"
-  },
-  "Accommodatiom": {
-    "VII": "Premiem Room",
-    "IV": "Single Room",
-    "ACR": "General Room"
   }
 }

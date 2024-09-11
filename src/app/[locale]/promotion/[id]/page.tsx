@@ -55,7 +55,7 @@ const Detail = async ({ params }: { params: { id: string } }) => {
     return (
       <main style={{ height: '50vh', display: 'flex', alignItems: 'center', flexDirection: 'row', justifyContent: 'center' }}>
         <h1 style={{
-          color: 'green',
+          color: 'blue',
           fontSize: '24pt'
         }}>
           ขออภัยไม่พบหน้าที่ร้องขอ

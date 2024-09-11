@@ -48,12 +48,6 @@ const Service_Modal: React.FC<service_modal> = ({
                         </div>
                         {rehab}
                     </li>
-                    <li onClick={() => navigate('/service/accommodation')}>
-                        <div className={Styles.icon_wrap}>
-                            <Icon icon="tabler:bed-filled" className={Styles.icon} />
-                        </div>
-                        {accommodation}
-                    </li>
                 </ul>
             </div>
         </div>

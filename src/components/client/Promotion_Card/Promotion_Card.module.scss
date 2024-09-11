@@ -1,4 +1,4 @@
-$main-color : #086a38;
+$main-color : white;
 $background-color: #fff;
 .card {
     display: flex;
@@ -52,7 +52,7 @@ $background-color: #fff;
     color: $main-color;
     padding: 0 8px 0 8px;
     border-radius: 100px;
-    background-color: rgba(8, 106, 56, 0.10);
+    background-color: rgba(30, 28, 173, 0.5);
     white-space: nowrap;
 }
 

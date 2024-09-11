@@ -38,11 +38,6 @@ const Footer = () => {
                                 <p>{t('rehab')}</p>
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/service/accommodation">
-                                <p>{t('accommodation')}</p>
-                            </Link>
-                        </li>
                     </ul>
                 </div>
                 <div className={Styles.gridItem}>

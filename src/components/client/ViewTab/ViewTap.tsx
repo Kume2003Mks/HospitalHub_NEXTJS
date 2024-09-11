@@ -158,7 +158,7 @@ const RECC = () => {
                     คลินิกทันตกรรมของโรงพยาบาลโนวา เฮลธ์ อินโนเวชั่น เป็นศูนย์เฉพาะทางที่ให้บริการด้านทันตกรรมครบวงจร โดยทีมทันตแพทย์ที่มีความเชี่ยวชาญและประสบการณ์สูง
                     เรามุ่งมั่นที่จะดูแลสุขภาพช่องปากและฟันของผู้ป่วยทุกเพศทุกวัย ด้วยมาตรฐานการรักษาที่เป็นเลิศและเทคโนโลยีทันสมัย
                 </p>
-                <Link href='/service/st_carlos_recc' className={Styles['link']}>
+                <Link href='/service/dental' className={Styles['link']}>
                     ข้อมูลเพิ่มเติม
                 </Link>
             </div>
@@ -246,7 +246,7 @@ const RECC_EN = () => {
                     We are committed to maintaining the oral health of patients of all ages,
                     providing excellent care with the latest technology and treatment standards.
                 </p>
-                <Link href='/service/st_carlos_recc' className={Styles['link']}>
+                <Link href='/service/dental' className={Styles['link']}>
                     ข้อมูลเพิ่มเติม
                 </Link>
             </div>
